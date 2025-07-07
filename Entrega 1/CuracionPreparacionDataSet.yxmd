@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="41" width="170" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>1. Carga DataSet</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>1. Carga DataSet</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ImportacionesAutomoviles1985.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="symboling" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="normalized-losses" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="make" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="fuel-type" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="aspiration" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="num-of-doors" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="body-style" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="drive-wheels" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="engine-location" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="wheel-base" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="length" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="width" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="height" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="curb-weight" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="engine-type" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="num-of-cylinders" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="engine-size" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="fuel-system" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="bore" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="stroke" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="compression-ratio" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="horsepower" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="peak-rpm" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="city-mpg" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="highway-mpg" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="price" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1073" y="305" width="137" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>2.2. EDA_3</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2.2. EDA_3</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1098" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\lhob9\AppData\Local\Temp\Alteryx\Engine_14160_ae6157f51b8e402e88bbe3177c020352_\Engine_14160_33f450e75a044fb28cb3c5068b4bf5e5~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="413" y="40" width="649" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>3. Preparación DataSet</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>3. Preparación DataSet</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="438" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="symboling" selected="False" rename="simbolos" />
+                <SelectField field="normalized-losses" selected="False" rename="perdidas_normalizadas" />
+                <SelectField field="make" selected="True" rename="marca" />
+                <SelectField field="fuel-type" selected="True" rename="tipo_combustible" />
+                <SelectField field="aspiration" selected="True" rename="aspiracion" />
+                <SelectField field="num-of-doors" selected="True" rename="numero_puertas" />
+                <SelectField field="body-style" selected="True" rename="carroceria" />
+                <SelectField field="drive-wheels" selected="True" rename="traccion" />
+                <SelectField field="engine-location" selected="True" rename="ubicacion_motor" />
+                <SelectField field="wheel-base" selected="True" rename="distancia_ejes" />
+                <SelectField field="length" selected="True" rename="largo" />
+                <SelectField field="width" selected="True" rename="ancho" />
+                <SelectField field="height" selected="True" rename="altura" />
+                <SelectField field="curb-weight" selected="True" rename="peso_vacio" />
+                <SelectField field="engine-type" selected="True" rename="tipo_motor" />
+                <SelectField field="num-of-cylinders" selected="True" rename="numero_cilindros" />
+                <SelectField field="engine-size" selected="True" rename="cilindraje" />
+                <SelectField field="fuel-system" selected="True" rename="sistema_combustible" />
+                <SelectField field="bore" selected="False" rename="diametro" />
+                <SelectField field="stroke" selected="False" rename="carrera" />
+                <SelectField field="compression-ratio" selected="True" rename="relacion_compresion" />
+                <SelectField field="horsepower" selected="True" rename="caballos_fuerza" />
+                <SelectField field="peak-rpm" selected="True" rename="rpm_maximas" />
+                <SelectField field="city-mpg" selected="True" rename="mpg_ciudad" />
+                <SelectField field="highway-mpg" selected="True" rename="mpg_carretera" />
+                <SelectField field="price" selected="True" rename="precio" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="510" y="89" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="marca" selected="True" />
+                <Field field="tipo_combustible" selected="True" />
+                <Field field="aspiracion" selected="True" />
+                <Field field="numero_puertas" selected="True" />
+                <Field field="carroceria" selected="True" />
+                <Field field="traccion" selected="True" />
+                <Field field="ubicacion_motor" selected="True" />
+                <Field field="distancia_ejes" selected="True" />
+                <Field field="largo" selected="True" />
+                <Field field="ancho" selected="True" />
+                <Field field="altura" selected="True" />
+                <Field field="peso_vacio" selected="True" />
+                <Field field="tipo_motor" selected="True" />
+                <Field field="numero_cilindros" selected="True" />
+                <Field field="cilindraje" selected="True" />
+                <Field field="sistema_combustible" selected="True" />
+                <Field field="relacion_compresion" selected="True" />
+                <Field field="caballos_fuerza" selected="True" />
+                <Field field="rpm_maximas" selected="True" />
+                <Field field="mpg_ciudad" selected="True" />
+                <Field field="mpg_carretera" selected="True" />
+                <Field field="precio" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="marca" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="tipo_combustible" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="aspiracion" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="numero_puertas" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="carroceria" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="traccion" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="ubicacion_motor" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="distancia_ejes" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="largo" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="ancho" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="altura" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="peso_vacio" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="tipo_motor" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="numero_cilindros" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="cilindraje" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="sistema_combustible" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="relacion_compresion" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="caballos_fuerza" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="rpm_maximas" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="mpg_ciudad" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="mpg_carretera" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+                <Field name="precio" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="594" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="marca" selected="True" />
+                <SelectField field="tipo_combustible" selected="True" />
+                <SelectField field="aspiracion" selected="True" />
+                <SelectField field="numero_puertas" selected="True" />
+                <SelectField field="carroceria" selected="True" />
+                <SelectField field="traccion" selected="True" />
+                <SelectField field="ubicacion_motor" selected="True" />
+                <SelectField field="distancia_ejes" selected="True" />
+                <SelectField field="largo" selected="True" />
+                <SelectField field="ancho" selected="True" />
+                <SelectField field="altura" selected="True" />
+                <SelectField field="peso_vacio" selected="True" />
+                <SelectField field="tipo_motor" selected="True" />
+                <SelectField field="numero_cilindros" selected="True" />
+                <SelectField field="cilindraje" selected="True" />
+                <SelectField field="sistema_combustible" selected="True" />
+                <SelectField field="relacion_compresion" selected="True" />
+                <SelectField field="caballos_fuerza" selected="True" />
+                <SelectField field="rpm_maximas" selected="True" />
+                <SelectField field="mpg_ciudad" selected="True" />
+                <SelectField field="mpg_carretera" selected="True" />
+                <SelectField field="precio" selected="True" type="Float" size="4" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+            <Position x="690" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RemoveNullRows value="False" />
+              <RemoveNullColumns value="False" />
+              <RemoveTabsLineBreaksAndDuplicates value="True" />
+              <RemoveLeadingAndTrailingWhitespace value="True" />
+              <RemoveAllWhitespaces value="True" />
+              <RemoveHTMLTags value="False" />
+              <RemoveInvisibleCharacters value="False" />
+              <Fields>
+                <Field value="marca" selected="True" />
+                <Field value="tipo_combustible" selected="True" />
+                <Field value="aspiracion" selected="True" />
+                <Field value="numero_puertas" selected="True" />
+                <Field value="carroceria" selected="True" />
+                <Field value="traccion" selected="True" />
+                <Field value="ubicacion_motor" selected="True" />
+                <Field value="distancia_ejes" selected="True" />
+                <Field value="largo" selected="True" />
+                <Field value="ancho" selected="True" />
+                <Field value="altura" selected="True" />
+                <Field value="peso_vacio" selected="True" />
+                <Field value="tipo_motor" selected="True" />
+                <Field value="numero_cilindros" selected="True" />
+                <Field value="cilindraje" selected="True" />
+                <Field value="sistema_combustible" selected="True" />
+                <Field value="relacion_compresion" selected="True" />
+                <Field value="caballos_fuerza" selected="True" />
+                <Field value="rpm_maximas" selected="True" />
+                <Field value="mpg_ciudad" selected="True" />
+                <Field value="mpg_carretera" selected="True" />
+                <Field value="precio" selected="True" />
+                <Field value="diametro" selected="True" />
+                <Field value="carrera" selected="True" />
+                <Field value="*Unknown" selected="True" />
+              </Fields>
+              <RemoveLetters value="False" />
+              <RemoveNumbers value="False" />
+              <RemovePunctuation value="False" />
+              <Letters value="" />
+              <Numbers value="" />
+              <Punctuations value="" />
+              <Exceptions value="" />
+              <Checkbox_ReplaceStringColumns value="False" />
+              <Checkbox_ReplaceNumericColumns value="False" />
+              <radioButton_ReplaceNullwithBlanks value="False" />
+              <radioButton_ReplaceBlankswithNulls value="True" />
+              <radioButton_ReplaceNullwithZero value="True" />
+              <radioButton_ReplaceZerowithNulls value="False" />
+              <ReplaceWithBlanks value="False" />
+              <ReplaceWithZero value="False" />
+              <CheckBox_ModifyCase value="False" />
+              <ModifyCase value="none" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings>
+            <Position x="978" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="listbox Select Incoming Fields">"precio"</Value>
+              <Value name="radio Null Value">True</Value>
+              <Value name="radio User Specified Replace From Value">False</Value>
+              <Value name="updown User Replace Value">0.00000</Value>
+              <Value name="radio Mean">True</Value>
+              <Value name="radio Median">False</Value>
+              <Value name="radio Mode">False</Value>
+              <Value name="radio User Specified Replace With Value">False</Value>
+              <Value name="updown User Replace With Value">0.00000</Value>
+              <Value name="checkbox Impute Indicator">False</Value>
+              <Value name="checkbox Imputed Values Separate Field">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field1" size="4" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Imputation_v3.yxmc" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="786" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [numero_puertas] = &quot;Four&quot; &#xA;THEN 4 &#xA;ELSE 2 &#xA;ENDIF" field="numero_puertas" size="4" type="String" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[numero_puertas = IF [numero_puertas] = "Four" 
+THEN 4 
+ELSE 2 
+ENDIF
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="882" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="numero_puertas" selected="True" type="Int64" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="245" y="137" width="127" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>2. EDA_1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2. EDA_1</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="270" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\lhob9\AppData\Local\Temp\Alteryx\Engine_14160_ae6157f51b8e402e88bbe3177c020352_\Engine_14160_0c9833d28aeb4979ae4133bd679bf46e~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="749" y="305" width="205" height="193" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>2.1. EDA_2</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>2.1. EDA_2</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="10">
+          <GuiSettings>
+            <Position x="774" y="414" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">marca=True,tipo_combustible=True,aspiracion=True,numero_puertas=True,carroceria=True,traccion=True,ubicacion_motor=True,distancia_ejes=True,largo=True,ancho=True,altura=True,peso_vacio=True,tipo_motor=True,numero_cilindros=True,cilindraje=True,sistema_combustible=True,diametro=True,carrera=True,relacion_compresion=True,caballos_fuerza=True,rpm_maximas=True,mpg_ciudad=True,mpg_carretera=True,precio=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="870" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\lhob9\AppData\Local\Temp\Alteryx\Engine_14160_ae6157f51b8e402e88bbe3177c020352_\Engine_14160_d2b6e2a5d6794d058861d12709dbacb1~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CuracionPreparacionDataSet</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6d4b3d14-875d-4bb0-9b5e-0bf1b3f123c2" />
+      <Telemetry>
+        <PreviousWorkflowId value="a1b7e605-2043-4cd0-b083-5c6d4719d965" />
+        <OriginWorkflowId value="a1b7e605-2043-4cd0-b083-5c6d4719d965" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

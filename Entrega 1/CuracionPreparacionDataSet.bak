@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ImportacionesAutomoviles1985.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="symboling" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="normalized-losses" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="make" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="fuel-type" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="aspiration" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="num-of-doors" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="body-style" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="drive-wheels" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="engine-location" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="wheel-base" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="length" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="width" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="height" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="curb-weight" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="engine-type" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="num-of-cylinders" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="engine-size" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="fuel-system" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="bore" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="stroke" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="compression-ratio" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="horsepower" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="peak-rpm" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="city-mpg" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="highway-mpg" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\lhob9\Downloads\Entrega 1\ImportacionesAutomoviles1985.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CuracionPreparacionDataSet</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6d4b3d14-875d-4bb0-9b5e-0bf1b3f123c2" />
+      <Telemetry>
+        <PreviousWorkflowId value="a1b7e605-2043-4cd0-b083-5c6d4719d965" />
+        <OriginWorkflowId value="a1b7e605-2043-4cd0-b083-5c6d4719d965" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
